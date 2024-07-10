@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lokesh</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+        emailjs.init("bCk8GgUnY12Ze_qBs");
+      })();
+    </script>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Lokesh</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+      <style>
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .social-icons a {
+            text-decoration: none;
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+        .social-icons a.linkedin {
+            background-color: #0077b5;
+        }
+        .social-icons a.github {
+            background-color: #333;
+        }
+        .social-icons a:hover {
+            opacity: 0.8;
+        }
+      </style>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#Certifications" class="navbar-link" data-nav-link>Certifications</a>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/uc?export=downloads&id=1mrE-gtZKJOYpIDVulgRcjT_7j9W-zXBw" class="btn btn-primary" data-nav-link>Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title"></p>
+
+              <p class="elem-text">Fresher</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">5</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+            
+            <img src="./assets/images/rotate-img.png" width="130" height="162" alt="I'm developer from Bangalore"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Lokesh Babu PN</strong> Full Stack Developer
+            </h2>
+
+            <p class="hero-text">
+              "Embarking on a transformative journey in IT, poised to innovate and redefine the future of technology."
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="assets/images/about-banner.jpg":width="800" height="652" loading="lazy" alt="Lokesh's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/about-banner.jpg" width="800" height="717" loading="lazy" alt="Lokesh's Photo"
+              class="abs-img">
+              <div class="abs-icon abs-icon-1">
+                <ion-icon name="logo-html5"></ion-icon>
+              </div>
+              
+              <div class="abs-icon abs-icon-2">
+                <ion-icon name="logo-javascript"></ion-icon>
+              </div>
+                          
+              <div class="abs-icon abs-icon-3">
+                <ion-icon name="logo-css3"></ion-icon>
+              </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Application for my Learning</h2>
+
+            <p class="section-text">
+              Aspiring full-stack developer creating a dynamic portfolio showcasing proficiency in HTML, CSS,
+               JavaScript, front-end frameworks (e.g., React), back-end languages (e.g., Node.js), and demonstrating 
+               real-world projects to highlight skills in web development.
+            </p>
+
+            <p class="section-text">
+              Eager and adaptable full-stack developer, blending a solid foundation in web technologies
+               with a passion for crafting intuitive and visually appealing digital experiences.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            In my educational journey, I've undertaken impactful projects, such as building a collaborative 
+            task management app using <b> React </b> and <b> Node.js </b>, showcasing my ability to translate theoretical knowledge
+            into practical, real-world solutions
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://github.com/LOKESH-P-N/code--packet-hiding-methos-and-jamming-attacks.git" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">JAVA project</p>
+
+                  <h3 class="h3 card-title">java project on packet hiding methods and jamming attacks</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/LOKESH-P-N/Django-MusicApp-main" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Python Django</p>
+
+                  <h3 class="h3 card-title">Web Application for Music App</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/LOKESH-P-N/HSM-CODE.git" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Database Management</p>
+
+                  <h3 class="h3 card-title">Human Resource Management, with CRUD Opertions</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Mobile Application Developement</p>
+
+                  <h3 class="h3 card-title">App [XploreMysuru]</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            Proficient in HTML, CSS, and JavaScript for creating dynamic, responsive websites.
+            competent in SQL and Core Java for solid database administration and backend development.
+            knowledgeable about creating cutting-edge, scalable front-end and back-end solutions with React.js and MongoDB.
+
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Core Java</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">SQL</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+                            
+              <form class="contact-form" onsubmit="sendEmail(event)">
+
+                <input type="text" name="name" id="name" placeholder="Name" required class="contact-input">
+                <input type="email" name="email" id="email" placeholder="Email" required class="contact-input">
+                <textarea id="message" name="message" placeholder="Message" required class="contact-input"></textarea>
+                 <button type="submit" class="btn-submit">Submit</button>
+              </form>
+           
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Bangalore, Karnataka
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:lokeshpn123@gmail.com" class="contact-item-link">lokeshpn123@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+91 7026806641" class="contact-item-link">+91 7026806641</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="Certifications">
+        <div class="container">
+
+          <p class="section-subtitle">Latest News</p>
+
+          <h2 class="h2 section-title">Checkout My Certifications </h2>
+
+          <p class="section-text">
+            Backed by industry-recognized certifications, I bring a proven commitment to excellence in web development, ensuring a robust foundation and adherence to best practices in every project I undertake
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/mongoDB.jpg" width="1181" height="843" loading="lazy"
+                      alt="MongoDB" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">DATABASE </a>
+
+                <h3 class="card-title">
+                  <a href="#">MongoDB University</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/java_basic.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">JAVA_BASIC</a>
+
+                <h3 class="card-title">
+                  <a href="#">Hackerrank..</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/sql_basic.jpg" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">SQL_BASIC</a>
+
+                <h3 class="card-title">
+                  <a href="#">Hackerrank</a>
+                </h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/lokesh-babu-p-n-67565223b/" target="_blank" class="linkedin">
+              <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/LOKESH-P-N" target="_blank" class="github">
+              <i class="fab fa-github"></i>
+          </a>
+      </div>
+      </section>
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <center><p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Lokesh</a>. All Rights Reseverd
+      </p></center>
+    </div>
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>     
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- 
+        - #CONTACT
+      -->
+      <script>
+        function sendEmail(event) {
+          event.preventDefault();
+    
+          const serviceID = 'service_gq3sg3k';
+          const templateID = 'template_r40u03y';
+
+          const templateParams = {
+        name: event.target.name.value,
+        email: event.target.email.value,
+        message: event.target.message.value,
+      };
+    
+          emailjs.sendForm(serviceID, templateID, event.target)
+            .then(() => {
+              alert('Message sent successfully!');
+              event.target.reset();
+            }, (error) => {
+              alert('Failed to send message. Please try again later.');
+              console.error('EmailJS error:', error);
+            });
+        }
+      </script>
+  
+</body>
+
+</html>
